@@ -34,18 +34,18 @@
 }
 
 .down:hover:after {
-position: absolute;
-margin-top: 20px;
-left:200px
-text-align: left;
-background-color: #0079d3;
-color: white;
-z-index: 3000;
-padding: 5px ;
-border-radius: 4px;
-font-size: 12px;
-font-weight: normal;
-content: "This is not a disagree button! Only down-vote when a post has not contributed to a discussion!"
+    position: absolute;
+    margin-top: 20px;
+    left:200px
+    text-align: left;
+    background-color: #0079d3;
+    color: white;
+    z-index: 3000;
+    padding: 5px ;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    content: "This is not a disagree button! Only down-vote when a post has not contributed to a discussion!"
 }
 
 #RESShortcutsEditContainer {
@@ -65,13 +65,13 @@ content: "This is not a disagree button! Only down-vote when a post has not cont
 
 
 #RESAccountSwitcherIcon {
-cursor: pointer;
-margin-left: 0px !important;
-display: inline-block;
-width: 14px !important;
-vertical-align: middle;
-height: 120px !important;
-background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 0px !important;
+    display: inline-block;
+    width: 14px !important;
+    vertical-align: middle;
+    height: 120px !important;
+    background-repeat: no-repeat;
     background-image: url(%%gear%%) !important;
     background-position:center center;
 }
@@ -86,10 +86,10 @@ background-repeat: no-repeat;
 }
 
 .link.last-clicked {
-  border-bottom: 1px solid #E9E9E9;
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
+    border-bottom: 1px solid #E9E9E9;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
     overflow: hidden;
 }
 .expando-button.selftext.collapsed {
@@ -144,15 +144,15 @@ background-repeat: no-repeat;
 
 #mail.nohavemail {
     background-image: url(%%messages%%) !important;
-   width: 20px !important;
-   height: 14px !important ;
+    width: 20px !important;
+    height: 14px !important ;
     background-repeat: no-repeat;
     background-position: -0px -0px !important;
 }
 #mail.havemail {
     background-image: url(%%messages-new%%) !important;
-   width: 17px !important;
-   height: 14px!important ;
+    width: 17px !important;
+    height: 14px!important ;
     background-position: -0px -0px !important;;
     background-repeat: no-repeat;
 }
@@ -160,15 +160,15 @@ background-repeat: no-repeat;
 #modmail.nohavemail {
     background-image: url(%%mod%%) !important;
     background-position: -0px -0px !important;
-   width: 15px !important;
-   height: 15px!important;
+    width: 15px !important;
+    height: 15px!important;
     background-repeat: no-repeat;
 }
 #modmail.havemail {
     background-image: url(%%mod-mail%%) !important;
     background-position: 1px -0px !important;
-   width: 15px !important;
-   height: 15px!important ;
+    width: 15px !important;
+    height: 15px!important ;
     background-repeat: no-repeat;
 }
 
@@ -193,9 +193,7 @@ label{
     padding-top: 10px;
     border-bottom: 1px solid #E9E9E9;
     margin: 0 auto;
-
     padding-right: 80px;
-
 }
 
 /* Replace this image with whatever image you want, make sure you keep the repeat scroll.
@@ -215,8 +213,12 @@ div .sr-bar {
     color: #D2A93A!important;
 }
 
+.gold-accent.comment-visits-box {
+    display:none;
+}
+
 #header-img.default-header {
-        text-indent: -9999px;
+    text-indent: -9999px;
     background-image: url(%%reddit-icon%%) !important;
     background-repeat: no-repeat;
     margin-left: 59px;
@@ -272,7 +274,7 @@ form input[type="checkbox"]:checked + label{
 }
 
 a {
-      color:#E95420;
+    color:#E95420;
 }
 
 a:hover {
@@ -293,20 +295,6 @@ a:hover {
     float: left;
     padding-top: 11px;
 }
-
-.author {
-    line-height: 200%;
-}
-
-.new-comment .usertext-body {
-    background-color: transparent!important;
-}
-
-.gold-accent.comment-visits-box {
-    display: none;
-}
-
-
 
 .titlebox .tagline, .titlebox .search-result-meta {
     margin: 0px 0px 0px 0px !important;
@@ -331,15 +319,13 @@ a:hover {
 }
 
 .li .first {
-   color: #DD4814;
+    color: #DD4814;
 }
 
 .entry .buttons li a {
     color: #AEA79F;
     padding: 0 1px;
 }
-
-
 
 .side {
     float: right;
@@ -369,9 +355,8 @@ a:hover {
 }
 
 .tagline {
-
     font-size: 11px;
-font-weight: 600 !important;
+    font-weight: 600 !important;
 }
 
 .tagline a {
@@ -397,11 +382,11 @@ font-weight: 600 !important;
 /* Very top panel
 */
 #sr-header-area {
-background-color: rgba(0, 0, 0, 0.3);
-font-size: 12px !important;
-color: #FFF;
-border-bottom: 1px solid rgba(0,0,0,0) ;
-font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px !important;
+    color: #FFF;
+    border-bottom: 1px solid rgba(0,0,0,0) ;
+    font-weight: 400;
 }
 
 .sr-bar a {
@@ -434,21 +419,19 @@ font-weight: 400;
 }
 
 .choice{
-color: #333333;
+    color: #333333;
 }
 
 #header {
     border-bottom:1px solid #AEA79F;
     position:relative;
-        background-image: url(%%ubuntu-header-1604%%);
-        height: 230px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
+    background-image: url(%%ubuntu-header-1604%%);
+    height: 230px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 
 #header-top {
     position:absolute;
@@ -456,13 +439,13 @@ color: #333333;
 }
 
 .tabmenu{
-font-family: "Ubuntu",sans-serif;
-margin-top: -51px;
-padding-bottom: 10px;
-border-bottom: 3px solid #7C3F2F;
-display: block;
-width: 617px;
-margin-left: 130px;
+    font-family: "Ubuntu",sans-serif;
+    margin-top: -51px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #7C3F2F;
+    display: block;
+    width: 617px;
+    margin-left: 130px;
 }
 
 .res .tabmenu {
@@ -470,39 +453,38 @@ margin-left: 130px;
 }
 
 .tabmenu li a {
- font-family: 'Ubuntu', sans-serif;
- font-size: 18px;
- color: white;
-font-weight: 400;
-background-color: transparent!important;
-padding-right: 10px;
-padding-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    background-color: transparent!important;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .tabmenu li a:hover{
-background-color: transparent!important;
-        padding-bottom: 10px;
-border: none;
+    background-color: transparent!important;
+    padding-bottom: 10px;
+    border: none;
     border-bottom:3px solid #E95420;
- color: white;
-
+    color: white;
 }
 
 .tabmenu li.selected a {
-background-color: transparent!important;
-padding-bottom: 10px;
-border-bottom:3px solid #E95420 !important;
-border-style: none;
- color: white;
-z-index: 100;
+    background-color: transparent!important;
+    padding-bottom: 10px;
+    border-bottom:3px solid #E95420 !important;
+    border-style: none;
+    color: white;
+    z-index: 100;
 }
 
 
 
 ul.tabmenu.formtab {
-border: none !important;
-padding-top: 40px;
-padding-left: 40px;
+    border: none !important;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 .tabmenu.formtab a {
 margin-top: 10px !important;
@@ -512,14 +494,12 @@ border: none !important;
 
 }
 
-.ch
-.tabmenu.formtab li.selected a {
-color: #E95420 !important;
-background-color: transparent!important;
-padding-bottom: 8px;
-color: #FFF;
-z-index: 100;
-
+.ch .tabmenu.formtab li.selected a {
+    color: #E95420 !important;
+    background-color: transparent!important;
+    padding-bottom: 8px;
+    color: #FFF;
+    z-index: 100;
 }
 
 .tabmenu.formtab li a:hover {
@@ -530,11 +510,8 @@ z-index: 100;
 
 }
 
-
-
-
 #header-bottom-left {
-height: 50px;
+    height: 50px;
 }
 
 
@@ -560,7 +537,7 @@ height: 50px;
 }
 
 #header-bottom-right .userkarma {
- color: #333333 !important;
+    color: #333333 !important;
     font-size: 15px;
 }
 
@@ -585,7 +562,7 @@ height: 50px;
 }
 
 #header-bottom-right .separator {
-color: transparent !important;
+    color: transparent !important;
 }
 
 .separator {
@@ -607,11 +584,11 @@ color: transparent !important;
     padding-top:0px;
 }
 .spacer #search {
-        font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 28px;
     margin-left: 10px;
     margin-right: 10px;
-     top:-16px;
+    top:-16px;
     position:relative;
     border-radius: 4px;
 }
@@ -646,7 +623,7 @@ color: transparent !important;
 }
 
 .new-comment .usertext-body {
-    background-color: white !important;
+    background-color: transparent!important;
     border: none !important;
     margin: -1px 0px;
     padding: 0px 4px;
@@ -689,7 +666,6 @@ color: transparent !important;
 
 }
 .titlebox blockquote:first-child a{
-
     color: #000;
 }
 .titlebox p em {
@@ -768,12 +744,12 @@ textarea {
     box-shadow: 0px 0px 3px #C9C9C9 !important;
     background-color: white  !important;
     border-radius: 4px  !important;
-border: none !important;
-font-family: font-family: "Ubuntu",sans-serif !important;
+    border: none !important;
+    font-family: font-family: "Ubuntu",sans-serif !important;
 }
 
 #search input[type="text"] {
-     -moz-border-radius: 2px;
+    -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
     background: #FFF;
@@ -796,9 +772,6 @@ font-family: font-family: "Ubuntu",sans-serif !important;
     padding: 0.5em 2.5em 0.5em 0.5em;
     width: 100%;
     content: "Search"!important;
-
-
-
 }
 
 .login-form-side input[type=text], .login-form-side input[type=password] {
@@ -808,7 +781,7 @@ font-family: font-family: "Ubuntu",sans-serif !important;
     background: #FFF;
     border: 1px solid #999;
     font-size: 13px;
-        font-family: 'Ubuntu','sans-serif';
+    font-family: 'Ubuntu','sans-serif';
     padding: 4px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset;
     box-sizing: border-box;
@@ -820,7 +793,7 @@ font-family: font-family: "Ubuntu",sans-serif !important;
     display: block;
     float: left;
     height: 2.3em;
-        margin: 5px 5px 5px 8px;
+    margin: 5px 5px 5px 8px;
     padding: 0.5em 2.5em 0.5em 0.5em;
     width: 45%;
 }
@@ -893,7 +866,7 @@ font-family: font-family: "Ubuntu",sans-serif !important;
 /* replace 'online readers' with something else*/
 .users-online .word {
     display: none;
-        content: "users here now";
+    content: "users here now";
 }
 
 .sidebox.submit .morelink:hover:before {
@@ -919,29 +892,29 @@ font-family: font-family: "Ubuntu",sans-serif !important;
 }
 
 .fancy-toggle-button {
-background: #38B44A none repeat scroll 0% 0%;
-box-sizing: border-box;
-border-radius: 4px;
-border: medium none;
-font-weight: 300;
-margin-right: 10px;
-color: #FFF;
-font-size: 13px;
-height: 25px;
-line-height: 25px;
+    background: #38B44A none repeat scroll 0% 0%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: medium none;
+    font-weight: 300;
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
 }
 
 .fancy-toggle-button .active {
-background: #38B44A none repeat scroll 0% 0%;
-box-sizing: border-box;
-border-radius: 4px;
-border: medium none;
-font-weight: 300;
-margin-left: 10px !important;
-margin-right: 10px;
-color: #FFF;
-font-size: 12px;
-height: 29px;
+    background: #38B44A none repeat scroll 0% 0%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: medium none;
+    font-weight: 300;
+    margin-left: 10px !important;
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 12px;
+    height: 29px;
 }
 .RESDashboardToggle{
     background: #38B44A none repeat scroll 0% 0% !important;
@@ -1002,8 +975,8 @@ height: 29px;
 }
 .morelink {
     background: none repeat scroll 0% 0% #38B44A;
-color: #FFF;
-border-color: #38B44A;
+    color: #FFF;
+    border-color: #38B44A;
     box-sizing: border-box;
     border-radius: 4px;
     border: medium none;
@@ -1014,8 +987,6 @@ border-color: #38B44A;
     margin-right: 10px;
     color: white;
     font-size: 13px;
-
-
 }
 
 
@@ -1071,25 +1042,24 @@ h1.redditname {
 }
 
 .sidecontentbox.collapsible .title {
-background: #38B44A none repeat scroll 0% 0% !important;
-box-sizing: border-box;
-border-radius: 4px;
-border: medium none;
-font-weight: 300 !important;
-margin-left: 10px;
-margin-right: 10px;
-color: #FFF;
-font-size: 10px;
-text-align: center;
-height: 29px;
-line-height: 29px;
+    background: #38B44A none repeat scroll 0% 0% !important;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: medium none;
+    font-weight: 300 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
 }
 
 .sidecontentbox .title h1 {
     display: inline;
     text-transform: capitalize;
     margin: 0px;
-
     font-size: 130%;
 }
 #moderation_tools.sidecontentbox .title h1 {
@@ -1097,15 +1067,15 @@ line-height: 29px;
 }
 
 #moderation_tools.sidecontentbox .title h1:before {
-background: #38B44A none repeat scroll 0% 0%;
-box-sizing: border-box;
-border-radius: 4px;
-border: medium none;
-font-weight: 300;
-margin-left: 10px;
-margin-right: 10px;
-color: #FFF;
-font-size: 13px;
+    background: #38B44A none repeat scroll 0% 0%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: medium none;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 13px;
     content: "Subreddit Management"
 }
 
@@ -1141,8 +1111,12 @@ font-size: 13px;
     border: none;
 }
 
+.author {
+    line-height: 200%;
+}
+
 .sidecontentbox .content li a.author {
-    line-height: 300%
+    line-height: 300%;
 }
 
 .content.submit .info-notice {
@@ -1186,9 +1160,9 @@ font-size: 13px;
 
 .titlebox h1 a{
     font-family: 'Ubuntu', sans-serif !important;
-font-weight: 400 !important;
-font-size: 18px !important;
-color: #333333;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #333333;
 }
 
 .titlebox ol, .titlebox ul {
@@ -1212,20 +1186,18 @@ form h1{display:none!important;}
 
 .link .usertext .md{
     border-color:none !important;
-box-shadow: 0px 0px 3px #C9C9C9 !important;
-background-color: #FFF !important;
-border-radius: 4px !important;
-border: medium none !important;
-margin-left: 5px;
-
+    box-shadow: 0px 0px 3px #C9C9C9 !important;
+    background-color: #FFF !important;
+    border-radius: 4px !important;
+    border: medium none !important;
+    margin-left: 5px;
 }
 /*special post*/
 .stickied-tagline{
     padding-left: 10px;
 }
 .stickied {
-font-weight: light;
-
+    font-weight: light;
 }
 .stickied > div {
     background:none;
@@ -1236,7 +1208,7 @@ font-weight: light;
 .thing.stickied a.title, .thing.stickied a.title:visited, .thing.stickied a.title.visited {
     font-weight: 400 !important;
     color: #282 !important;
-text-transform: capitalize;
+    text-transform: capitalize;
 }
 /**end special post**/
 /** moderator**/
@@ -1280,7 +1252,6 @@ text-transform: capitalize;
     color:#FFF!important;
     padding-top:-1px;
     font-size:0px;
-
 }
 .tagline .userattrs .cakeday:after {
     content: "___";
@@ -1305,7 +1276,6 @@ text-transform: capitalize;
 
 }
 .userattrs>.submitter:after {
-
     content: "___";
     font-size:16px;
     position:relative;
@@ -1461,11 +1431,6 @@ text-transform: capitalize;
 .flair-visualbasicexpress{ background-position: -420px -1249px; width: 32px; height: 32px; }
 .flair-xojo{ background-position: -420px -1345px; width: 32px; height: 32px; }
 
-
-
-
-
-
 .linkflairlabel {
     margin-top: -2px;
     font-size: 11px;
@@ -1486,6 +1451,11 @@ text-transform: capitalize;
     color: #f7f7f7!important;
 }
 
+.linkflair-inaccuracies .linkflairlabel {
+    background-color: #ED3146!important;
+    color: #f7f7f7!important;
+}
+
 .linkflair-misleadingtitle .linkflairlabel {
     background-color: #ED3146!important;
     color: #f7f7f7!important;
@@ -1500,20 +1470,19 @@ text-transform: capitalize;
     content: ":";
 }
 
-
 .link .thumbnail {
     position: relative;
     height: 48px;
     width: 48px;
     margin: 1px 16px 10px 11px;
-  border-top-left-radius: 22% 20%;
-  border-top-right-radius: 20% 22%;
-  border-bottom-left-radius: 20% 24%;
-  border-bottom-right-radius: 20% 24%;
+    border-top-left-radius: 22% 20%;
+    border-top-right-radius: 20% 22%;
+    border-bottom-left-radius: 20% 24%;
+    border-bottom-right-radius: 20% 24%;
     background-position: 0;
     background-image: url(%%web%%);
     text-align: center;
-   box-shadow: 0 1px 1px -1px #b7b7b7;
+    box-shadow: 0 1px 1px -1px #b7b7b7;
 }
 
 .link .thumbnail {
@@ -1544,28 +1513,27 @@ text-transform: capitalize;
     background-color: transparent!important;
 }
 .res-commentBoxes .comment {
-margin-left: 10px !important;
-box-shadow: 0px 0px 3px #C9C9C9 !important;
-background-color: #FFF !important;
-border-radius: 4px !important;
-border: medium none !important;
+    margin-left: 10px !important;
+    box-shadow: 0px 0px 3px #C9C9C9 !important;
+    background-color: #FFF !important;
+    border-radius: 4px !important;
+    border: medium none !important;
 }
 .RESshortcutside {
-
-background: #38B44A none repeat scroll 0% 0% !important;
-box-sizing: border-box !important;
-border-radius: 4px !important;
-border: medium none !important;
-font-weight: 300 !important;
-margin-left: 10px !important;
-margin-right: 10px !important;
-color: #FFF !important;
-font-size: 12px !important;
-height: 25px !important;
-line-height: 25px !important;
-width: 97px !important;
-padding: 0px 0px !important;
-text-align: center;
+    background: #38B44A none repeat scroll 0% 0% !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+    border: medium none !important;
+    font-weight: 300 !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    color: #FFF !important;
+    font-size: 12px !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 97px !important;
+    padding: 0px 0px !important;
+    text-align: center;
 }
 
 .titlebox {
@@ -1573,31 +1541,28 @@ text-align: center;
     margin-right: 0px !important;
 }
 .RESshortcutside:hover {
-background: #38B44A none repeat scroll 0% 0%;
-padding: 0px 0px !important;
-
-
+    background: #38B44A none repeat scroll 0% 0%;
+    padding: 0px 0px !important;
 }
 
 .RESshortcutside.remove {
-padding: 0px 0px !important;
+    padding: 0px 0px !important;
 }
 
 
 RESSubscriptionButton{
-background: #38B44A none repeat scroll 0% 0% !important;
-box-sizing: border-box!important ;
-border-radius: 4px !important;
-border: medium none!important ;
-font-weight: 300!important ;
-margin-right: 10px!important ;
-color: #FFF!important ;
-font-size: 10px!important ;
-width: 82px !important ;
-margin-left: 10px!important ;
-padding: 5px 20px!important ;
-margin-bottom: 20px!important ;
-
+    background: #38B44A none repeat scroll 0% 0% !important;
+    box-sizing: border-box!important ;
+    border-radius: 4px !important;
+    border: medium none!important ;
+    font-weight: 300!important ;
+    margin-right: 10px!important ;
+    color: #FFF!important ;
+    font-size: 10px!important ;
+    width: 82px !important ;
+    margin-left: 10px!important ;
+    padding: 5px 20px!important ;
+    margin-bottom: 20px!important ;
 }
 .thing .tagline .author.submitter{
 }
@@ -1963,15 +1928,13 @@ margin-bottom: 20px!important ;
 .res-nightmode .sr-bar a.gold {
     color: #D2A93A!important;
 }
-[](#/RES_SR_Config/NightModeCompatible)
-.res-nightmode .side .md ul {
-    background-color: #3b3b3b!important;
-}
-.res-nightmode .side .titlebox form.flairtoggle, .res-nightmode .trophy-area .content, .res-nightmode .side .md ol, .res-nightmode .side .md ul {
-    background-color: #3b3b3b!important;
-}
+
 .res-nightmode .new-comment .usertext-body {
     background-color: transparent!important;
+}
+
+.res-nightmode .side .titlebox form.flairtoggle, .res-nightmode .trophy-area .content, .res-nightmode .side .md ol, .res-nightmode .side .md ul {
+    background-color: #3b3b3b!important;
 }
 
 .res-nightmode hr {

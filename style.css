@@ -749,9 +749,8 @@ textarea {
 }
 
 #search input[type="text"] {
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: 9px!important;
+    border-radius: 9px;
     background: #FFF;
     border: 2px solid #cdcdcd;
     font-size: 13px;

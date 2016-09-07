@@ -11,12 +11,16 @@ These are the styles for [/r/ubuntu](http://reddit.com/r/ubuntu), the Ubuntu com
 5. Submit a pull request :D
 
 ## History
-
+- 2016-07-09: Fixed RES gear icon - Daniel McGuire
 - 2016-06-07: initial import
 
 ## Credits
 
-TODO: Write credits
+Steve Edwards
+Daniel McGuire
+CM-T(Rudy)
+Nathan Haines
+Mat N
 
 ## License
 

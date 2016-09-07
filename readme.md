@@ -18,7 +18,7 @@ These are the styles for [/r/ubuntu](http://reddit.com/r/ubuntu), the Ubuntu com
 
 - Steve Edwards
 - Daniel McGuire
-- CM-T(Rudy)
+- cm-t(Rudy)
 - Nathan Haines
 - Mat N
 

@@ -16,11 +16,11 @@ These are the styles for [/r/ubuntu](http://reddit.com/r/ubuntu), the Ubuntu com
 
 ## Credits
 
-Steve Edwards
-Daniel McGuire
-CM-T(Rudy)
-Nathan Haines
-Mat N
+- Steve Edwards
+- Daniel McGuire
+- CM-T(Rudy)
+- Nathan Haines
+- Mat N
 
 ## License
 

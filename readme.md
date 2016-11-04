@@ -11,6 +11,7 @@ These are the styles for [/r/ubuntu](http://reddit.com/r/ubuntu), the Ubuntu com
 5. Submit a pull request :D
 
 ## History
+- 2016-11-04: Updated tabmenu and top subreddit menu.
 - 2016-07-09: Fixed RES gear icon - Daniel McGuire
 - 2016-06-07: initial import
 

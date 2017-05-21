@@ -1541,6 +1541,31 @@ text-transform: capitalize;
     background-image: url(%%thumb-self%%);
 }
 
+/* fixing ads display - sodypop 4-13-2017 */
+.promotedlink .thumbnail, .organic-listing .thumbnail , .promotedlink .thumbnail img, .organic-listing .thumbnail img {
+    background-image:none !important;
+    margin: 0 0 0 0 !important;
+    width: 70px !important;
+    height: 70px !important;
+    max-height: 70px !important;
+    border-top-left-radius: 0% 0% !important;
+    border-top-right-radius: 0% 0% !important;
+    border-bottom-left-radius: 0% 0% !important;
+    border-bottom-right-radius: 0% 0% !important;
+    left: 0 !important;
+}
+.promotedlink .thumbnail img {
+    display: initial !important;
+}
+.promotedlink .thumbnail > img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 0% !important; 
+    transform: translateX(0%) !important;
+}
+/* end fixing ads display - sodypop */
+
 .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
     background-color: transparent !important;
 }
